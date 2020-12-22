@@ -87,7 +87,5 @@ On instance:
 For the moment you can install from this repository using `pip`.
 
 ```bash
-git clone git@github.com:garethr/docker-label-inspector.git
-cd docker-label-inspector
-pip install .
+pip install -e "git+https://github.com/garethr/docker-label-inspector.git@master#egg=dli"
 ```
